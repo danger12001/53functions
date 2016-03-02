@@ -5,7 +5,7 @@ describe("hello_joe", function(){
 
     it("should return  - 'Hello, XOLANI!'", function(){
         var result = hello_joe("Xolani");
-        assert.equal(result, "Hello, XOLANI!")
+        assert.equal(result, "Hello, XOLANI!");
     });
 
     it("should return 'Hello!' hello for Joe", function(){
