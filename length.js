@@ -1,3 +1,4 @@
-module.exports = function(){
-    
-}
+module.exports = function(string){
+return string.length;
+
+};
