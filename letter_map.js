@@ -7,6 +7,6 @@ module.exports = function(str){
     wordmap[string[x].charAt(0)] = string[x];
   }
   });
-  console.log(wordmap);
+  // console.log(wordmap);
   return wordmap;
 };
