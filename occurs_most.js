@@ -1,7 +1,7 @@
 module.exports = function(str){
   var letters = str.replace(/ /g,"").split("");
-  console.log(letters);
-  if(letters.length == 0)
+  // console.log(letters);
+  if(letters.length === 0)
     return null;
     var modeMap = {};
     var maxEl = letters[0], maxCount = 1;
@@ -17,4 +17,4 @@ module.exports = function(str){
                                         }
                                                 }
   return maxEl;
-}
+};
