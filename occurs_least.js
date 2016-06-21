@@ -7,7 +7,7 @@ module.exports = function(str){
       acc[curr] += 1;
     }
 
-    console.log(acc);
+    // console.log(acc);
     return acc;
   }, {});
 };
