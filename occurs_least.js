@@ -6,8 +6,8 @@ module.exports = function(str){
     } else {
       acc[curr] += 1;
     }
-console.log(acc);
 
+    console.log(acc);
     return acc;
   }, {});
 };
